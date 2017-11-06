@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5FFFA;
+    font-family:helvetica;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display:block;
+}
+
+.pull-left {
+    float:left;
+}
+
+.pull-right {
+    float:right;
+}
+
+nav {
+    background-color: #222;
+    height: 30px;
+    padding: 5px;
+    position: fixed;
+    width: 100%
+}
+
+nav a {
+    text-decoration: none;
+}
+
+header {
+    color: blue;
+    font-family: Helvetica;
+    height: 200px;
+    padding-top: 80px; 
+    text-align: center;
+}
+
+header h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+main {
+    margin: 0 auto;
+    width: 800px;
+}
+
+article {
+    width: 500px;
+}
+
+aside {
+    width: 300px;
+}
+
+.content {
+    border: solid 2px white;
+    padding-right: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+img {
+    width: 250px; 
+    height: 250px;
+    position: relative;
+    top: 0;
+    padding:3px;
+}
+
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+}
+
+.contact-body {
+    background-color: #74777c;
+}
+
+.contact-header {
+    color: black;
+}
+
+input {
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+}
+
+.fa-yahoo {
+    background: #430297;
+    color: white;
+    
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+

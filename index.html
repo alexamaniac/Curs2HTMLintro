@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>My first HTML page</title>
+        </head>
+        <body>
+         <div>
+             <h1>Alexandra Maniac</h1>
+             <p> 
+               Intro <strong>HTML</strong> 
+               intro <strong>JS</strong> 
+               intro <strong>CSS</strong>
+             </p>
+             <ul type="square">
+                 <li><a href="https://www.w3schools.com/html/" target="_blank">HTML</a></li>
+                 <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+                 <li>JS</li>
+             </ul>
+        </div>   
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Adress</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Melania Miron </td>
+                    <td>Nu stiu unde sta</td>
+                    <td rowspan="2">20</td>
+                </tr>
+                <tr>
+                    <td>Anca Balc</td>
+                    <td>Nu stiu unde sta</td>
+                   
+                </tr>
+                <tr>
+                    <td>Alexandra </td>
+                    <td>Nu stiu unde sta</td>
+                    <td>20</td>
+                </tr>
+            </table>
+            
+         <!--HTML FORMS-->
+           <!--GET FORM-->
+           <form method="GET">
+               <input type="text" name="Search" placeholder="Search"/>
+               <input type="submit" value="Submit"/>
+           </form>
+           <!--POST FORM-->
+           <form method="POST"> <!--action="users.html"--><!--de retinut: 2 metode:get sau post-->
+               <input type="text" name="Name" placeholder="Your name"/>
+               <br>
+               <textarea name="description" placeholder="Description"></textarea>
+               <br>
+               Gender
+               <input type="radio" name="gender" value="F" checked>F 
+               <input type="radio" name="gender" value="M">M
+               Course
+               <select name="course">
+                   <option value="1">Front End</option>
+                   <option value="2">Intro IT</option>
+                   <option value="3">Java</option>
+               </select>
+               <br>
+               <input type="checkbox" name="accept"/>Accept terms and conditions
+               <br>
+               <input type="submit" value="Create"/>
+           </form>
+           
+          
+           
+           
+        </body>
+    </html>
+    
